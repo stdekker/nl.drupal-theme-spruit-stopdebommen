@@ -1,0 +1,18 @@
+name = Stopdebommen.nl (Spruit Sass)
+description = A 
+package = Other
+base theme = spruit_sass
+version = 0.1
+
+core = 7.x
+
+; SPruit core styhlesheets
+stylesheets[all][] = css/stopdebommen.css
+
+; Regions
+regions[content]   = Primary content
+regions[secondary] = Secondary content
+regions[footer]    = Footer content
+
+; Panels support
+plugins[panels][layouts] = layouts

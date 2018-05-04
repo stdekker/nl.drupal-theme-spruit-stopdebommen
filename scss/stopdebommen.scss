@@ -1,0 +1,52 @@
+$color1: #000;
+$color2: #fff;
+$content-width: 1180px;
+
+.page .primary-content{
+    min-height: 320px;
+}
+
+.node-webform .field-introduction {
+	max-width: 100%;
+	margin: 0 -16px;
+	padding: 0;
+	background: $color1;
+	color: $color2;
+	margin-bottom: 1rem;
+	.field-item {
+		max-width: $content-width;
+		padding: 1rem;
+		margin: auto;
+		p {
+			font-size: 1.2rem;
+			line-height: 1.32;
+		}
+	}
+}
+
+#site-header {
+	border: none;
+}
+.footer-short {
+	background: $color1;
+	color: $color2;
+}
+.secondary-content {
+	background: none;
+	.block-block {
+		border: 2px solid $color1;
+		padding: 2rem;
+		margin: 1rem auto;
+		max-width: $content-width;
+	}
+}
+input.button-primary {
+	background: $color1;
+	color: $color2;
+	border: 2px solid $color1;
+	&:hover {
+		color: $color1;
+		background: $color2;
+	}
+}
+
